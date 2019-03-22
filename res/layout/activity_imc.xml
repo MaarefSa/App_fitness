@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	android:orientation="vertical"
+  	android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app_fitness.IMC" >
+
+    <LinearLayout 
+	    android:orientation="horizontal"
+   		 android:layout_width="wrap_content"
+   		 android:layout_height="wrap_content"
+   		 android:layout_marginTop="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taille/m" />
+    <EditText 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:background="@drawable/skintext"
+        android:paddingLeft="10dp"
+        android:hint="Entrez votre taille" 
+        android:id="@+id/edit" /> 
+    
+    </LinearLayout>
+    <LinearLayout 
+	    android:orientation="horizontal"
+   		 android:layout_width="wrap_content"
+   		 android:layout_height="wrap_content"
+   		 android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poids/kg" />
+    <EditText 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:background="@drawable/skintext"
+        android:paddingLeft="10dp"
+        android:hint="Entrez votre login" 
+        android:id="@+id/edit1" /> 
+    
+    </LinearLayout>
+    
+    <Button 
+            android:layout_width="fill_parent" 
+            android:layout_height="40dp" 
+            android:text="calculer" 
+            android:layout_marginTop="10dp"
+            android:background="@drawable/skinbutton"
+            android:id="@+id/calcul" />
+    
+    <LinearLayout 
+	    android:orientation="vertical"
+   		 android:layout_width="wrap_content"
+   		 android:layout_height="wrap_content"
+   		 android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC" />
+    <TextView 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="" 
+        android:id="@+id/res" /> 
+    
+    </LinearLayout>
+
+    <LinearLayout 
+	    android:orientation="horizontal"
+   		 android:layout_width="wrap_content"
+   		 android:layout_height="wrap_content"
+   		 android:layout_marginTop="20dp"
+   		 android:layout_gravity="center">
+   
+    <Button 
+            android:layout_width="wrap_content" 
+            android:layout_height="40dp" 
+            
+            android:background="@drawable/skinbutton"
+            android:text="Regime" 
+            android:id="@+id/regime" />
+     <Button 
+            android:layout_width="wrap_content" 
+            android:layout_height="40dp" 
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/skinbutton"
+            android:text="Exercices" 
+            android:id="@+id/exercice" />
+    
+    </LinearLayout>
+    <LinearLayout 
+	    android:orientation="horizontal"
+   		 android:layout_width="wrap_content"
+   		 android:layout_height="wrap_content"
+   		android:layout_marginTop="180dp"
+   		>
+    <Button 
+            android:layout_width="wrap_content" 
+            android:layout_height="40dp" 
+            android:layout_marginLeft="220dp"
+            android:text="Back" 
+            android:id="@+id/back" />
+    </LinearLayout>
+</LinearLayout>

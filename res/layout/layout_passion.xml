@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical" >
+    
+
+    
+     
+            
+    <TextView
+		    android:id="@+id/tvnom"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="26dp"
+		    android:layout_marginStart="26dp"
+		    android:layout_marginTop="10dp"
+		    
+		    android:textColor="#333"
+		    android:textSize="22dp"
+    />
+    <TextView
+            android:id="@+id/tvprenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            
+            android:textColor="#333"
+            android:textSize="10dp"
+            />
+     <TextView
+            android:id="@+id/tvage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            
+            android:textColor="#333"
+            android:textSize="10dp"
+            />
+      <TextView
+            android:id="@+id/tvabonnement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            
+            android:textColor="#333"
+            android:textSize="10dp"
+            />
+       <TextView
+            android:id="@+id/tvlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            
+            android:textColor="#333"
+            android:textSize="10dp"
+            />
+        <TextView
+            android:id="@+id/tvpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            
+            android:textColor="#333"
+            android:textSize="10dp"
+            />
+	
+    
+</LinearLayout>

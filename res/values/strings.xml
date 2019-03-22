@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App_fitness</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_imc">IMC</string>
+    <string name="title_activity_direction1">Direction1</string>
+    <string name="title_activity_direction2">Direction2</string>
+    <string name="title_activity_direction3">Direction3</string>
+    <string name="title_activity_exercice">Exercice</string>
+    <string name="title_activity_regime">Regime</string>
+    <string name="title_activity_inscrire">Inscrire</string>
+    <string name="title_activity_gestion_client">GestionClient</string>
+    <string name="title_activity_exercicem">Exercicem</string>
+    <string name="title_activity_regimm">Regimm</string>
+    <string name="title_activity_exercicet">Exercicet</string>
+    <string name="title_activity_regimt">Regimt</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="rep1">Le nombre de repetitions par serie dependra directement de la charge . 
+         Donc on va recuperer avec un nombre de repetitions donne pour en refaire 
+         un peu plus pour au final faire 20 a 40 repetitions avec une charge qu on 
+         peut deplacer seulement 12 fois</string>
+    <string name="dos">Programme Musculation Dos : 
+				pour tous les exercices rep 12-12-10-10 puis(1min30 de recup)</string>
+    <string name="epaule">Programme Musculation epaule : 
+				pour tous les exercices rep 12-12-12 puis(1min30 de recup)</string>
+    <string name="bras">Programme Musculation bras : 
+				pour tous les exercices rep 12-10-10-8 puis(1min30 de recup)</string>
+    <string name="pect">Programme Musculation pect : 
+				pour tous les exercices rep 12-12-10-10 puis(1min30 de recup)</string>
+    <string name="jembe">Programme Musculation jembe : 
+				pour tous les exercices rep 12(+6 légère) -12(+6 légère) -12(+6 légère) puis (1min recup)</string>
+    <string name="physique">chaque exercice dure au minimum 15 min </string>
+    <string name="title_activity_coach">Coach</string>
+    <string name="title_activity_lundi">Lundi</string>
+    <string name="title_activity_mardi">Mardi</string>
+    <string name="title_activity_mercredi">Mercredi</string>
+    <string name="title_activity_jeudi">Jeudi</string>
+    <string name="title_activity_vendredi">Vendredi</string>
+    <string name="title_activity_samedi">Samedi</string>
+    <string name="title_activity_dimanche">Dimanche</string>
+    <string name="title_activity_passion">Passion</string>
+    <string name="title_activity_ajout_coach">AjoutCoach</string>
+    <string name="title_activity_list_admin">ListAdmin</string>
+    
+
+</resources>

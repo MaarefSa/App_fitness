@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app_fitness.Inscrire" >
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom" />
+    <EditText 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Entrez votre nom" 
+        android:id="@+id/edit" /> 
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prenom" />
+    <EditText 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Entrez votre prenom" 
+        android:id="@+id/edit1" />
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age" />
+    <EditText 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Entrez votre age" 
+        android:id="@+id/editA" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abonnement" />
+    <Spinner 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/abonnement"
+        > 
+        </Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+    <EditText 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Entrez votre login" 
+        android:id="@+id/edit2" /> 
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+    <EditText 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Entrez votre password" 
+        android:id="@+id/edit3" />
+    
+       <Button 
+            
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="ok" 
+            android:id="@+id/inscrire" />
+        
+        <Button 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="Annuler" 
+            android:id="@+id/annuler" />
+
+</LinearLayout>
